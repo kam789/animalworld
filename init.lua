@@ -114,16 +114,16 @@ dofile(path .. "robin.lua") --
 dofile(path .. "orangutan.lua") --
 
 -- Load tundravegetation
-local load_tundra_vegetation = minetest.settings:get_bool("animalworld.tundravegetation") ~= false
-if load_tundra_vegetation then
-	dofile(path .. "tundravegetation.lua") --
-end
+--local load_tundra_vegetation = minetest.settings:get_bool("animalworld.tundravegetation") ~= false
+--if load_tundra_vegetation then
+--	dofile(path .. "tundravegetation.lua") --
+--end
 
 -- Load trophies
-local load_trophies = minetest.settings:get_bool("animalworld.trophies") ~= false
-if load_trophies then
-	dofile(path .. "trophies.lua") --
-end
+--local load_trophies = minetest.settings:get_bool("animalworld.trophies") ~= false
+--if load_trophies then
+--	dofile(path .. "trophies.lua") --
+--end
 
 -- Load hunger
 if minetest.get_modpath("hunger_ng") then
@@ -131,9 +131,9 @@ if minetest.get_modpath("hunger_ng") then
 end
 
 -- Load concretecrafting
-if minetest.get_modpath("default") then
-	dofile(path .. "concretecrafting.lua") --
-end
+--if minetest.get_modpath("default") then
+--	dofile(path .. "concretecrafting.lua") --
+--end
 
 -- Load custom spawning
 if mobs.custom_spawn_animalworld then
